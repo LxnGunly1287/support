@@ -92,23 +92,28 @@
         </div>
     </section>
 
-    <!-- Liên hệ -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2>Liên hệ với chúng tôi</h2>
-            <div class="contact-wrapper">
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Tên của bạn" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Nội dung" rows="5" required></textarea>
-                    </div>
-                    <button type="submit">Gửi tin nhắn</button>
-                </form>
+    <div class="container">
+        <h2>Liên hệ với chúng tôi</h2>
+        <div class="contact-wrapper">
+            <form class="contact-form" action="https://formspree.io/f/xkgqyvyq" method="POST">
+                <div class="form-group">
+                    <input type="text" name="ten" placeholder="Tên của bạn" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="noi_dung" placeholder="Nội dung" rows="5" required></textarea>
+                </div>
+                <button type="submit">Gửi tin nhắn</button>
+            </form>
+
+            <div class="contact-info">
+                </div>
+        </div>
+    </div>
+</section>
                 <div class="contact-info">
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
