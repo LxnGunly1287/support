@@ -143,7 +143,7 @@ body {
     color: var(--primary);
 }
 
-/* Responsive */
+/* Responsive */ 
 @media (max-width: 768px) {
     .contact-wrapper {
         grid-template-columns: 1fr;
@@ -154,3 +154,4 @@ body {
         text-align: center;
     }
 }
+/* Headrozing */
